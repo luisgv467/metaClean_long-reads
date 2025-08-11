@@ -46,7 +46,7 @@ minimap2 -t 24 -I 100G -d human.mmi ../GCF_000001405.40_GRCh38.p14_genomic.fna <
 
 1. We need the basename for the raw metagenomic assemblies that we plan to process. This workflow assumes that the raw-metagenomes are compressed and have a file extension `.fastq.gz`.
 
-<pre><code> ls path_to_raw_reads/*_2.fastq.gz | sed -e 's|path_to_raw_reads/||' -e 's|_2.fastq.gz||' > metagenome_paths.txt </pre></code> 
+<pre><code> ls path_to_raw_reads/*.fastq.gz | sed -e 's|path_to_raw_reads/||' -e 's|.fastq.gz||' > metagenome_paths.txt </pre></code> 
 
 2. Modify the `config/config.yml` with your input and output locations
 
