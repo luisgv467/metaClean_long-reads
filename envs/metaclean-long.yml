@@ -1,0 +1,7 @@
+name: metaclean-long
+channels:
+  - conda-forge
+dependencies:
+  - chopper
+  - minimap2
+  - samtools

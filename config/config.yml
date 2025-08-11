@@ -1,0 +1,13 @@
+# Required arguments
+
+#File with the basenames of the samples you plan to process
+input:
+    "/data/pam/lg21g/scratch/Programs/snakemake/MetaClean_long-reads/metagenome_paths.txt"
+
+#Path to raw long-reads fastqs
+input_path:
+    "/data/pam/lg21g/scratch/chapters/chapter_1/Resp_microbiome_db/raw_long-reads/"
+
+#Output directory to store results
+output:
+    "/data/pam/lg21g/scratch/chapters/chapter_1/Resp_microbiome_db/clean_long_reads/"

@@ -1,0 +1,41 @@
+__default__:
+    queue: "normal"
+    project: "snakemake_test"
+    mem: 5
+    nCPU: 1
+
+chopper:
+  queue: "normal"
+  project: "chopper"
+  mem: 12
+  nCPU: 8
+
+minimap2:
+  queue: "normal"
+  project: "minimap2"
+  mem: 100
+  nCPU: 24
+
+samtools_sam_to_bam:
+  queue: "normal"
+  project: "samtools_sam_to_bam"
+  mem: 5
+  nCPU: 4
+
+samtools_retain_unmapped_reads:
+  queue: "normal"
+  project: "samtools_retain_unmapped_reads"
+  mem: 5
+  nCPU: 4
+
+samtools_sort_bam:
+  queue: "normal"
+  project: "samtools_sort_bam"
+  mem: 5
+  nCPU: 4
+
+samtools_clean_fastqs:
+  queue: "normal"
+  project: "samtools_clean_fastqs"
+  mem: 5
+  nCPU: 4
